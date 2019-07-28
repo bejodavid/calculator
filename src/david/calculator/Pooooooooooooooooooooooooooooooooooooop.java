@@ -1,5 +1,5 @@
 
-package david.practice;
+package david.calculator;
 
 import java.util.Scanner;
 

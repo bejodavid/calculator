@@ -1,4 +1,4 @@
-package david.practice;
+package david.calculator;
 
 import java.io.BufferedReader;
 import java.io.IOException;
