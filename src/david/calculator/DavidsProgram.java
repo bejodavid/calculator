@@ -9,14 +9,14 @@ class DavidsProgram{
 	public static void main(String[] args) throws IOException {
 	
 System.out.println("Hello welcome to Davids calculator.We dont have alott yet because  this is the beta 0.0.0.0.4. and sorry for gliches this program is being made by a 9 year old. ");
-System.out.print("press 1 to go to the calculator press 2 to see the realise scedule");
+System.out.print("press 1 to go to the calculator press 2 to see the realise scedule coming soon:press 3 for ai");
 int A = Integer.valueOf(new BufferedReader(new InputStreamReader(System.in)).readLine());
 if(A==2) {System.out.println("Welcome to the release scedule.  ");
 System.out.println("0.0.0.0.1, 2019.july.26");
 System.out.println("0.0.0.0.2, 2019.july.29");
 System.out.println("0.0.0.0.3, 2019.july.31");
-System.out.println("0.0.0.0.4, 2019.aug.17");
-System.out.println("0.0.0.0.5, 2019.sept.10");};
+System.out.println("0.0.0.0.4, 2019.aug.24");
+System.out.println("0.0.0.0.5, 2019.oct.30");};
 if(A==1){System.out.println("Welcome to the calculator. ");
   System.out.println("Press 2 for +,-,* or /");
   System.out.println("New: you can press 1 for advanced calculator options.");
@@ -69,6 +69,15 @@ System.out.println("Now pick a number and then the computer will do the rest.");
 int U = Integer.valueOf(new BufferedReader(new InputStreamReader(System.in)).readLine());
 System.out.println(U*U);
   };
+  if(A==3) {
+	  String ö = new BufferedReader(new InputStreamReader(System.in)).readLine();
+  System.out.println(ö);
+  String ü = new BufferedReader(new InputStreamReader(System.in)).readLine();
+  System.out.println(ü);
+  System.out.println("Type bye to restart");
+  String ó = new BufferedReader(new InputStreamReader(System.in)).readLine();
+  System.out.println(ó);};
+  
  //Sorry i just rhit the up my stuff  XYZ
   };
   }; 
