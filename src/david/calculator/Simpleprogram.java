@@ -16,7 +16,6 @@ import javax.swing.JLabel;
 public class Simpleprogram {
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
-		
 System.out.println("What is yor name?");
 String name = new BufferedReader(new InputStreamReader(System.in)).readLine();
 System.out.println("Hello" + name + "!");
@@ -155,6 +154,8 @@ frame.pack();
 frame.setVisible(true);
 }
 
-	}
+
 }
-	
+
+}	
+
